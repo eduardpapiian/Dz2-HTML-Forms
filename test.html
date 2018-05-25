@@ -35,7 +35,7 @@
         <p>
             <label>1. Select date when Lviv was founded?
             <br>
-                <select name="foundedoflviv">
+                <select name="founded-of-lviv">
                     <option value="1240" selected>1240 y.</option>
                     <option value="1250">1250 y.</option>
                     <option value="1230">1230 y.</option>
@@ -45,7 +45,7 @@
         <p>
             <label>2. What is an architectural gem of Lviv?
               <br>
-                <select name="architecturalgem" size="3">
+                <select name="architectural-gem" size="3">
                     <option value="rynok">RYNOK SQUARE, TOWER</option>
                     <option value="opera" selected>LVIV OPERA HOUSE</option>
                     <option value="virmen">VIRMENSKA STREET</option>
@@ -57,7 +57,7 @@
         <p>
             <label>3. What tasty products popular in Lviv? (more then one)
              <br>
-                <select name="popularproducts" size="5" multiple>
+                <select name="popular-products" size="5" multiple>
                     <option value="chocolate">Chocolate</option>
                     <option value="coffee">Coffee</option>
                     <option value="meat">Meat</option>
@@ -73,11 +73,19 @@
             </label>
         </p>
         <p>
-            <label>5.How much did you like Lviv?
+            <label>5.How much did you like Lviv in%?
                 <br>
-                  <input type="range" id="a" name="a" value="50">
+                  <input type="range"  name="how-much-i-love-lviv" value="50">
               <br>
             </label>
+        </p>
+        <p>6.What restaurant is situated in an ancient stone building which is on the UNESCO World Heritage List?
+              <br>
+                <input type="checkbox" name="restourant" value="Medivnia">Medivnia
+                <br>
+                <input type="checkbox" name="restourant" value="Chaykhana Samarkand">Chaykhana Samarkand
+                <br>
+                <input type="checkbox" name="restourant" value="Lviv Croissants">Lviv Croissants
         </p>
         <input type="submit" value="Send" />
         <input type="reset" value="Reset" />
